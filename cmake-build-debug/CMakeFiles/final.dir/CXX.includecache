@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/boris/CLionProjects/http10server/arg_parser.h
+unistd.h
+-
+
+/home/boris/CLionProjects/http10server/main.cpp
+iostream
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+string
+-
+fcntl.h
+-
+algorithm
+-
+thread
+-
+arg_parser.h
+/home/boris/CLionProjects/http10server/arg_parser.h
+
